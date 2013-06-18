@@ -1,3 +1,5 @@
+#cython: wraparound=False
+
 import numpy as np
 cimport numpy as cnp
 from libc.math cimport pow, log2
