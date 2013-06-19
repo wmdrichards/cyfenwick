@@ -14,7 +14,7 @@ from cyfenwick import FenwickTree
 import numpy as np
 import unittest
 
-class DiffusionEstimatorTest(unittest.TestCase):
+class FenwickTreeTest(unittest.TestCase):
     def test_integers(self):
         vals = np.random.randint(low=1, high=15, size=1000)
         ft = FenwickTree(len(vals))
