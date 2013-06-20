@@ -8,9 +8,8 @@ __maintainer__ = "Will Richards"
 __email__ = "wmdrichards@gmail.com"
 __status__ = "Beta"
 __date__ = "6/18/13"
-
+import traceback
 from cyfenwick import FenwickTree
-
 import numpy as np
 import unittest
 
