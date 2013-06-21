@@ -65,6 +65,9 @@ cdef class FenwickTree:
             m /= 2 
         return i
     
+    cdef double get_total(self):
+        return self.get_cumulative(self.size)
+    
     @property
     def total(self):
         return self.get_cumulative(self.size)

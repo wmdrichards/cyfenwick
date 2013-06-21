@@ -8,4 +8,5 @@ cdef class FenwickTree:
     cpdef double get_cumulative(self, int i)
     cpdef double get_value(self, int i)
     cpdef int get_index(self, double cumulative)
+    cdef double get_total(self)
 
