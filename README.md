@@ -7,7 +7,7 @@ Cython implementation of fenwick tree.
 Installation
 ------------
 
-Code should be installed using:
+Cyfenwick should be installed using:
 
     python setup.py install
 
